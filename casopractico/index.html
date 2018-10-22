@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+        
+    
+    <div id="myform">
+        <h1>Create an account</h1>
+       <form method="POST" action="./gracias.html"></form>
+        <div>
+
+            <label for="name"></label>
+            <input type="text" name="Name" id="name" placeholder="name">
+        </div>
+        <div>
+                <label for="placernumber"></label>
+                <input type="text" name="number" id="number" pattern="[1-9]*" placeholder="Phone Number">
+        </div>
+        <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+        <div>
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="password">
+        </div>
+         
+        <div>
+                <input type="checkbox" name="agree" value="0"> 
+                <label for="agree"></label>
+                i agree to the <a href="term">terms and conditions</a> and 
+                <a href="privacy">privacy politicy</a>
+        </div>
+        <button id="button">Create Account</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+h1{
+    color: azure;
+}
+#myform{
+    border-radius: 30px;
+    width: 400px;
+    margin: 4px auto;
+    background: black;
+}
+input{
+    padding: 10px; margin: 10px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    
+}
+#name{
+    background-image: url(./imgs/666201.png); 
+    background-size: 20px;
+}
+#button{
+    padding-left: 39px;
